@@ -60,7 +60,8 @@ func NewParamStore(options ...Option) (*ParamStore, error) {
 		if err != nil {
 			return nil, fmt.Errorf("load external aws config: %v", err)
 		}
-		WithClient(ssm.New(cfg))
+		client := ssm.New(cfg)
+		WithClient(client)(s)
 	}
 
 	return s, nil
