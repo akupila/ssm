@@ -1,5 +1,6 @@
 # ssm [![GoDoc](https://godoc.org/github.com/akupila/ssm?status.svg)](https://godoc.org/github.com/akupila/ssm)
 
+[![GitHub Actions](https://github.com/akupila/ssm/workflows/Test/badge.svg)](https://github.com/akupila/ssm/actions)
 [![Go Report Card](https://goreportcard.com/badge/github.com/akupila/ssm)](https://goreportcard.com/report/github.com/akupila/ssm)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 
