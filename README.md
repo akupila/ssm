@@ -2,6 +2,7 @@
 
 [![GitHub Actions](https://github.com/akupila/ssm/workflows/Test/badge.svg)](https://github.com/akupila/ssm/actions)
 [![Go Report Card](https://goreportcard.com/badge/github.com/akupila/ssm)](https://goreportcard.com/report/github.com/akupila/ssm)
+[![CodeCov](https://codecov.io/gh/akupila/ssm/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/gh/akupila/ssm)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 
 Read config values from [AWS System Manager Parameter Store][1] by names

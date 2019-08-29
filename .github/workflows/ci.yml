@@ -26,8 +26,11 @@ jobs:
           go mod download
 
       - name: Test
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
         run: |
-          go test -cover ./...
+          go test -coverprofile=coverage.txt -covermode=atomic
+          bash <(curl -s https://codecov.io/bash)
 
   lint:
     name: lint
